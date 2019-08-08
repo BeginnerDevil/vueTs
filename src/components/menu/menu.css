@@ -1,0 +1,51 @@
+.menu-icon {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	z-index: 100;
+	text-align: center;
+}
+.menu-font{
+	font-size: 17px;
+	line-height: 50px;
+	color: #333;
+}
+
+.menu-icon:hover {
+	background: #333;
+}
+
+.menu-icon:hover .menu-font {
+	transform: rotateZ(90deg);
+	color: #fff;
+}
+.menu-list-box{
+	position: fixed;
+	top: 70px;
+	right: 0px;
+	width: 150px;
+	height: 200px;
+	z-index: 100;
+	overflow: hidden;
+	
+}
+.menu-list {
+	width: 150px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 50px;
+	font-weight: 500;
+	user-select: none;
+	margin-left: 150px;
+}
+
+.wire {
+	height: 2px;
+	background: #333;
+	top: 50%;
+	left: 0;
+	margin-top: -1px;
+	width: 0;
+}

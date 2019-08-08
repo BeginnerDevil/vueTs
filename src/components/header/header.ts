@@ -5,31 +5,18 @@ interface form {
 }
 @Component({
     components: {
-
     }
 })
 
 export default class Login extends Vue {
     @Prop({ default: 'default value' }) propB!: string;
-    private message: string = '';
+    private sign: boolean = true;
 
     private userData: form = {
         name: '',
         password: ''
     }
-    private singin(): any {
-        let self = this;
-        if (this.userData.name == '') return alert("请输入账号");
-        if (this.userData.password == '') return alert("请输入密码");
-        return self.$http.post('http://192.168.12.20:3000/signin', {
-            "name": this.userData.name,
-            "password": this.userData.password
-        }).then(msg => {
-            console.log(msg);
-
-        })
-
-    }
+   
     created(): void {
 
     }

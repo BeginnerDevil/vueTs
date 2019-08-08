@@ -41,7 +41,7 @@ a:active {
 }
 
 img {
-    vertical-align: middle;
+    /* vertical-align: middle; */
     display: block;
     margin: 0 auto;
 }
@@ -74,22 +74,22 @@ button {
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-    color: #333;
+    color: #CACACA;
 }
 
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-    color: #333;
+    color: #CACACA;
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-    color: #333;
+    color: #CACACA;
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-    color: #333;
+    color: #CACACA;
 }
 
 
@@ -190,4 +190,8 @@ input::-webkit-input-placeholder {
 /* 变小手 */
 .cursor {
     cursor: pointer;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
 }
